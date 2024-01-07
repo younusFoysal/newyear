@@ -22,7 +22,6 @@
     border-radius: 16px;*/
 
 }
-
 .banner-title{
     color: #FFF;
     text-align: center;
@@ -46,4 +45,38 @@
     padding: 177px 345px;
     text-align: center;
 }
+
+/* 65% off offer Style */
+.offer-container{
+    margin: 120px 400px ;
+    text-align: center;
+}
+.offer{
+    color: #F00;
+    /*text-align: center;*/
+    font-family: Inter, serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+.offer-des{
+    color: #F00;
+    /*text-align: center;*/
+    font-family: Inter, serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.offer-categories{
+    color: #070211;
+    /*text-align: center;*/
+    font-family: Inter, serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+
 
