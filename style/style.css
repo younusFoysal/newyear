@@ -13,7 +13,7 @@
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner-Image.png");
     border-radius: 16px;
     /*background: ;*/
-    /*max-width: 1320px;*/
+    max-width: 1320px;
     background-repeat: no-repeat;
     /*flex-shrink: 0;*/
     background-position: top;
@@ -77,6 +77,107 @@
     margin-top: 16px;
     margin-bottom: 48px;
 }
+
+
+/* 65% off offer Style */
+.midnight-party{
+    display: flex;
+    margin: 0 140px;
+}
+.midnight-party-image{
+    max-width: 1320px;
+    position: relative;
+    z-index: 1;
+    background-image: url("../images/Vectorrr.png");
+
+}
+.midnight-party-container{
+    border-radius: 16px;
+    position: relative;
+    z-index: 2;
+    padding: 66px 126px;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
+
+    /*background-image: url("../images/Vectorrr.png");
+
+    padding: 70px 125px 67px 125px;
+    display: flex;*/
+/*    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);*/
+
+}
+.party-title{
+    color: #FFF;
+    font-family: Merriweather, serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+    margin-top: 57px;
+    margin-bottom: 24px;
+}
+.party-des{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn-primary{
+    border: none;
+    margin-top: 48px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.party-image{
+    filter: hue-rotate(350deg);
+    /*
+    background-color: white;
+    */
+    /* background-blend-mode: multiply; */
+    /*
+    mix-blend-mode: multiply;
+    */
+    /* background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+
+
+    /*position: absolute;
+    z-index: 2;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
