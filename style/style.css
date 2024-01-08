@@ -194,7 +194,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .coming-title{
     color: #F00;
     font-family: Inter;
@@ -225,7 +224,6 @@
     margin-top: 105px;
     margin-bottom: 105px;
 }
-
 .coming-centre{
     text-align: center;
     horiz-align: center;
@@ -241,7 +239,6 @@
 .enjoy{
     margin: 50px;
 }
-
 .title{
     color: #F00;
     font-family: Inter, serif;
@@ -249,7 +246,6 @@
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 16px;
-
 }
 .happy-new-year{
    margin-top: 43px;
@@ -260,8 +256,128 @@
     margin-bottom: 0;
 }
 
+/* Holiday Style */
+.holiday-section{
+    margin: 0 140px;
+    padding: 0;
+}
+.holiday-upper-section{
+    padding: 0 126px;
+    text-align: center;
+}
+.holiday-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.holiday-title-big{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+    margin-top: 16px;
+}
+.holiday-red{
+    color: #F00;
+}
+.holiday-title-des{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
 
 
+
+
+.holiday-lower-section{
+    margin: 0;
+
+}
+.pic-2{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    /*width: 207px;
+    height: 207px;
+    margin: 10px;*/
+}
+/*.pic-3{
+    position: relative;
+    justify-content: right;
+    height: 433px;
+    width: 430px;
+    border-radius: 16px 16px 0 0;
+}*/
+.pic-1{
+    height: 662px;
+    position: absolute;
+    top: -187%;
+    left: 0;
+    width: 797px;
+    margin: 0;
+    padding: 0;
+}
+.pic-4{
+
+    width: 100%;
+    /*position: absolute;*/
+    /*margin-top: 433px;
+    max-width: 1306px;
+    height: 230px;
+    border-radius: 16px 0 16px 16px;
+    background: #F00;*/
+}
+.lower-sec-container{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.lower-sec{
+    width: 100%;
+}
+.upper-sec-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 0;
+}
+.upper-sec{
+    position: relative;
+}
+
+/*Portfolio style*/
+.our-awesome-portfolio{
+    margin: 120px 140px;
+}
+
+.portfolio-des{
+    max-width: 900px;
+    margin-bottom: 48px;
+}
+
+.portfolio-img{
+    border-radius: 16px;
+    height: 450px;
+    width: 425px;
+
+}
+
+.portfolio1{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio2{
+
+}
 
 
 
